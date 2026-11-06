@@ -1,0 +1,170 @@
+/* Escreva aqui as suas folhas de estilo */
+
+/* Remove os espaços */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configura o fundo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    padding: 12px 18px;
+}
+
+/* Cabeçalho do site */
+.cabecalho {
+    background-color: #162028;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 95px;
+    width: 100%;
+}
+
+/* Nome Moda Ora */
+.cabecalho h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 23px;
+    font-weight: normal;
+    color: #e5e0dc;
+}
+
+/* Menu de navegação */
+.cabecalho nav {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+/* Links do menu */
+.cabecalho nav a {
+    color: #425564;
+    text-decoration: none;
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* Imagem principal */
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    display: block;
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+    object-position: center 35%;
+}
+
+/* Apresentação da marca */
+.sobre {
+    text-align: center;
+    padding: 70px 10%;
+    background-color: #ffffff;
+}
+
+.sobre h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 28px;
+    font-weight: normal;
+    color: #555;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.sobre p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 2.1;
+    color: #555;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Área dos produtos */
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 10% 65px;
+}
+
+/* Cada produto */
+.produto {
+    width: 30%;
+    text-align: center;
+}
+
+/* Imagens dos produtos */
+.produto img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Nome dos produtos */
+.produto h3 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #333;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+/* Descrição dos produtos */
+.produto p {
+    font-size: 11px;
+    color: #777;
+}
+
+/* Seção azul de detalhes */
+.detalhes {
+    background-color: #00485a;
+    color: #ffffff;
+    padding: 100px 10%;
+    min-height: 360px;
+    background-image: url("imagens/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Títulos da seção azul */
+.detalhes h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+/* Texto da seção azul */
+.detalhes p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.7;
+    max-width: 620px;
+    margin-top: 25px;
+    color: #ffffff;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #162028;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Texto do rodapé */
+.rodape p {
+    color: #66717a;
+    font-size: 9px;
+    letter-spacing: 2px;
+}
